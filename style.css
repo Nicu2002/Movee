@@ -1,0 +1,685 @@
+@charset "UTF-8";
+.header__outer .header__iner .intro .intro__content .intro__advantages .advantages__header {
+  display: flex;
+  align-items: center;
+}
+.header__outer .header__iner .intro .intro__content .intro__advantages .advantages__header p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 40px;
+  margin-left: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  color: #333333;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.content__outer {
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: hidden;
+}
+.content__outer .content__iner {
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
+.header__outer {
+  background-color: #FED100;
+}
+.header__outer .header__iner {
+  position: relative;
+  height: 650px;
+}
+@media screen and (max-width: 1000px) {
+  .header__outer .header__iner {
+    height: 450px;
+  }
+}
+.header__outer .header__iner .nav__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 40px;
+}
+@media screen and (max-width: 1000px) {
+  .header__outer .header__iner .nav__menu {
+    padding-top: 10px;
+  }
+}
+.header__outer .header__iner .nav__menu .nav__links {
+  display: flex;
+  width: 452px;
+  justify-content: space-between;
+}
+.header__outer .header__iner .nav__menu .nav__links li a {
+  font-size: 18px;
+  font-weight: 500;
+}
+@media screen and (max-width: 650px) {
+  .header__outer .header__iner .nav__menu .nav__links {
+    position: absolute;
+    display: grid;
+  }
+}
+.header__outer .header__iner .nav__menu .Logo {
+  font-size: 30px;
+  font-weight: 600;
+}
+.header__outer .header__iner .nav__menu .telephone__number {
+  font-size: 24px;
+  font-weight: 600;
+  border-bottom: 1px solid #333333;
+}
+@media only screen and (max-width: 1000px) {
+  .header__outer .header__iner .nav__menu .telephone__number {
+    display: none;
+  }
+}
+.header__outer .header__iner .intro {
+  display: flex;
+  justify-content: space-between;
+}
+.header__outer .header__iner .intro .intro__content {
+  margin-top: 63px;
+}
+.header__outer .header__iner .intro .intro__content h2 {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 70px;
+}
+@media screen and (max-width: 1000px) {
+  .header__outer .header__iner .intro .intro__content h2 {
+    font-size: 40px;
+    line-height: normal;
+  }
+}
+.header__outer .header__iner .intro .intro__content h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 23px;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 1000px) {
+  .header__outer .header__iner .intro .intro__content h3 {
+    font-size: 20px;
+  }
+}
+.header__outer .header__iner .intro .intro__content button {
+  font-size: 24px;
+  font-weight: 600;
+  width: 304px;
+  height: 60px;
+  background-color: #FF352B;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transform-style: preserve-3d;
+  color: #F2F2F2;
+  margin-bottom: 76px;
+}
+@media screen and (max-width: 1000px) {
+  .header__outer .header__iner .intro .intro__content button {
+    width: 152px;
+    height: 30px;
+    font-size: 18px;
+    margin-bottom: 36px;
+  }
+}
+.header__outer .header__iner .intro .intro__content button::after {
+  content: "";
+  display: block;
+  width: 304px;
+  height: 60px;
+  border: 2px solid #F2F2F2;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  transform: translateZ(-1px);
+}
+@media screen and (max-width: 1000px) {
+  .header__outer .header__iner .intro .intro__content button::after {
+    display: none;
+  }
+}
+.header__outer .header__iner .intro .intro__content .intro__advantages {
+  display: flex;
+}
+@media screen and (max-width: 1000px) {
+  .header__outer .header__iner .intro .intro__content .intro__advantages .advantages__header p {
+    margin-right: 15px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .header__outer .header__iner .intro .intro__content .intro__advantages .advantages__header {
+    display: none;
+  }
+}
+.header__outer .header__iner .intro .intro__image {
+  position: absolute;
+  bottom: -4px;
+  left: 616px;
+  transform-style: preserve-3d;
+}
+@media only screen and (max-width: 1000px) {
+  .header__outer .header__iner .intro .intro__image {
+    left: 65%;
+  }
+}
+@media screen and (max-width: 820px) {
+  .header__outer .header__iner .intro .intro__image {
+    left: 50%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .header__outer .header__iner .intro .intro__image img {
+    width: 250px;
+    height: 400px;
+  }
+}
+.header__outer .header__iner .intro .intro__image::after {
+  content: "";
+  display: block;
+  background-image: url("images/header-car.png");
+  width: 499px;
+  height: 300px;
+  position: absolute;
+  bottom: 170px;
+  left: 299px;
+  transform: translateZ(-1px);
+}
+@media screen and (max-width: 1200px) {
+  .header__outer .header__iner .intro .intro__image::after {
+    display: none;
+  }
+}
+
+#plan__section {
+  margin-top: 95px;
+}
+#plan__section .plan__inner h2 {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+@media screen and (max-width: 550px) {
+  #plan__section .plan__inner h2 {
+    font-size: 25px;
+  }
+}
+#plan__section .plan__inner .plan__steps {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 105px;
+  margin-right: 105px;
+}
+@media screen and (max-width: 1260px) {
+  #plan__section .plan__inner .plan__steps {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  #plan__section .plan__inner .plan__steps {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  #plan__section .plan__inner .plan__steps {
+    align-items: flex-start;
+    margin-left: 10%;
+  }
+}
+#plan__section .plan__inner .plan__steps .steps {
+  margin-bottom: 50px;
+  flex: 50%;
+  display: flex;
+}
+@media screen and (max-width: 550px) {
+  #plan__section .plan__inner .plan__steps .steps {
+    align-items: center;
+  }
+}
+#plan__section .plan__inner .plan__steps .steps h3 {
+  font-size: 50px;
+  font-weight: 300;
+  text-shadow: 1px 1px #FED100;
+}
+@media screen and (max-width: 550px) {
+  #plan__section .plan__inner .plan__steps .steps h3 {
+    font-size: 30px;
+  }
+}
+#plan__section .plan__inner .plan__steps .steps .plan__description {
+  text-align: start;
+  margin-left: 42px;
+}
+@media screen and (max-width: 550px) {
+  #plan__section .plan__inner .plan__steps .steps .plan__description {
+    margin-left: 22px;
+  }
+}
+#plan__section .plan__inner .plan__steps .steps .plan__description h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+@media screen and (max-width: 550px) {
+  #plan__section .plan__inner .plan__steps .steps .plan__description h4 {
+    font-size: 16px;
+  }
+}
+#plan__section .plan__inner .plan__steps .steps .plan__description p {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+@media screen and (max-width: 550px) {
+  #plan__section .plan__inner .plan__steps .steps .plan__description p {
+    font-size: 12px;
+  }
+}
+
+#price__section {
+  margin-top: 105px;
+}
+#price__section .price__inner {
+  position: relative;
+  text-align: center;
+}
+#price__section .price__inner h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+#price__section .price__inner h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+@media screen and (max-width: 700px) {
+  #price__section .price__inner h3 {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+#price__section .price__inner .price__cards__container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 950px) {
+  #price__section .price__inner .price__cards__container {
+    height: 579px;
+    width: 421px;
+  }
+}
+#price__section .price__inner .price__cards__container .price__cards {
+  width: 421px;
+  height: 579px;
+  border: 1px solid #EBEBEB;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 950px) {
+  #price__section .price__inner .price__cards__container .price__cards {
+    position: absolute;
+    right: -100%;
+    display: none;
+  }
+}
+#price__section .price__inner .price__cards__container .price__cards:hover {
+  border-color: #FED100;
+  transition: 0.6s;
+}
+#price__section .price__inner .price__cards__container .price__cards h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 84px;
+}
+#price__section .price__inner .price__cards__container .price__cards p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 52px;
+  line-height: 46px;
+}
+#price__section .price__inner .price__cards__container .price__cards span {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 68px;
+}
+#price__section .price__inner .price__cards__container .price__cards button {
+  font-size: 20px;
+  font-weight: 500;
+  width: 250px;
+  height: 50px;
+  background-color: #FED100;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 52px auto;
+}
+@media screen and (max-width: 950px) {
+  #price__section .price__inner .price__cards__container .price__cards:nth-child(1) {
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+}
+#price__section .price__inner .scroll__price {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  bottom: 0;
+}
+#price__section .price__inner .scroll__price div {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 1px solid #333333;
+  cursor: pointer;
+}
+
+.active__dot {
+  background-color: #FF352B;
+}
+
+#auto__park__section {
+  margin-top: 102px;
+}
+#auto__park__section .auto__park__inner h2 {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+#auto__park__section .auto__park__inner h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 15px;
+  text-align: center;
+}
+#auto__park__section .auto__park__inner .auto__select__container {
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  width: 640px;
+}
+#auto__park__section .auto__park__inner .auto__select__container button {
+  font-size: 20px;
+  font-weight: 500;
+  width: 200px;
+  height: 50px;
+  background-color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #EBEBEB;
+}
+#auto__park__section .auto__park__inner .auto__description__container {
+  margin-top: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#auto__park__section .auto__park__inner .auto__description__container .auto__description h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 37px;
+}
+#auto__park__section .auto__park__inner .auto__description__container .auto__description ul li {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 28px;
+}
+#auto__park__section .auto__park__inner .auto__description__container .auto__description ul li:before {
+  content: url("images/checkIcon.png");
+  margin-right: 15px;
+}
+#auto__park__section .auto__park__inner .auto__description__container .auto__description button {
+  margin-top: 35px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 250px;
+  height: 50px;
+  background-color: #FED100;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+#auto__park__section .auto__park__inner .auto__description__container img {
+  margin-right: 13%;
+}
+
+#reviews__section {
+  background-color: #FED100;
+  margin-top: 46px;
+}
+#reviews__section .reviews__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#reviews__section .reviews__inner h2 {
+  margin-top: 100px;
+  font-size: 30px;
+  font-weight: 600;
+}
+#reviews__section .reviews__inner .reviews__container {
+  width: 100%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+#reviews__section .reviews__inner .reviews__container .reviews h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+#reviews__section .reviews__inner .reviews__container .reviews .date__review {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+#reviews__section .reviews__inner .reviews__container .reviews .date__review:after {
+  content: "5 star))";
+  margin-left: 20px;
+}
+#reviews__section .reviews__inner .reviews__container .reviews p {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+#reviews__section .reviews__inner button {
+  width: 250px;
+  height: 50px;
+  background-color: #FED100;
+  border: 1px solid #333333;
+  outline: none;
+  cursor: pointer;
+  margin-top: 60px;
+  margin-bottom: 94px;
+}
+
+#comand__section {
+  margin-top: 124px;
+}
+#comand__section .comand__inner {
+  width: 1000px;
+}
+#comand__section .comand__inner h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+#comand__section .comand__inner h3 {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+#comand__section .comand__inner .contacts__input {
+  margin-top: 34px;
+  display: flex;
+  justify-content: space-between;
+}
+#comand__section .comand__inner .contacts__input .info__comand {
+  font-size: 20px;
+  font-weight: 500;
+  opacity: 0.7;
+  width: 300px;
+  height: 34px;
+  border: none;
+  border-bottom: 1px solid #333333;
+}
+#comand__section .comand__inner .contacts__input .comand__button__check {
+  display: flex;
+  flex-direction: column;
+}
+#comand__section .comand__inner .contacts__input .comand__button__check button {
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  width: 250px;
+  height: 50px;
+  background-color: #FF352B;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  color: #F2F2F2;
+  transform-style: preserve-3d;
+}
+#comand__section .comand__inner .contacts__input .comand__button__check button::after {
+  content: "";
+  display: block;
+  width: 250px;
+  height: 50px;
+  border: 1px solid #FED100;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  transform: translateZ(-1px);
+}
+#comand__section .comand__inner .contacts__input .comand__button__check .check__box {
+  margin-top: 22px;
+  position: relative;
+  border: 1px solid #333333;
+}
+#comand__section .comand__inner .contacts__input .comand__button__check .check__box:after {
+  content: "Даю согласие на обработку данных";
+  width: 230px;
+  left: 30px;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  color: #333333;
+}
+
+#map__section {
+  margin-top: 124px;
+  background-image: url("images/map.png");
+  height: 666px;
+}
+#map__section .map__inner .adress {
+  background-color: white;
+  width: 368px;
+  height: 326px;
+  margin-top: 162px;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#map__section .map__inner .adress h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 35px;
+}
+#map__section .map__inner .adress ul {
+  margin-left: 35px;
+  margin-top: 40px;
+}
+#map__section .map__inner .adress ul li {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 19px;
+}
+#map__section .map__inner .adress ul li::before {
+  content: "✓";
+  color: #FED100;
+  margin-right: 15px;
+}
+#map__section .map__inner .adress .socials {
+  margin-top: 54px;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin-left: 50%;
+}
+#footer__section {
+  background-color: #FED100;
+  height: 400px;
+}
+#footer__section .footer__inner {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+#footer__section .footer__inner .first__container__footer h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 44px;
+}
+#footer__section .footer__inner .first__container__footer p {
+  margin-bottom: 36px;
+  font-size: 16px;
+  font-weight: 400;
+}
+#footer__section .footer__inner .nav__footer ul li {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+#footer__section .footer__inner .socials__footer {
+  position: relative;
+}
+#footer__section .footer__inner .socials__footer img {
+  margin-left: 15px;
+}
+#footer__section .footer__inner .socials__footer:after {
+  content: "hello@movee.ru";
+  position: absolute;
+  left: 15px;
+  top: 25px;
+}
+#footer__section .footer__inner .call__back {
+  text-align: center;
+}
+#footer__section .footer__inner .call__back button {
+  font-size: 20px;
+  font-weight: 500;
+  width: 250px;
+  height: 44px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #333333;
+  background-color: #FED100;
+}
+#footer__section .footer__inner .call__back p {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: 400;
+}
